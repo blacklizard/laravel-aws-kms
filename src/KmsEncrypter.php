@@ -64,4 +64,9 @@ final class KmsEncrypter implements Encrypter, StringEncrypter
     {
         return $this->decrypt($payload, false);
     }
+
+    public function getKey()
+    {
+        return '';
+    }
 }
